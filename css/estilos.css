@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'russa';
+    src: url('../fontes/Hunger\ Games.ttf');
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+
+body nav div img {
+    border-radius: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+nav {
+    width: 100%;
+    background-color: tomato;
+    float: left;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav h1 img {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.botao-cardapio {
+    float: left;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    margin-top: 35px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.header-imagem {
+    width: 100%;
+    float: left;
+    border-radius: 50px;
+}
+
+header {
+    width: 100%;
+    background-color:orange;
+    float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7{width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+
+img.redondo {
+    border-radius: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+main {
+    background-color:chartreuse;
+    font-size: 30px;
+}
+
+main div h1 {
+    font-family: 'russa';
+}
+
+
+.delivery {
+    float: left;
+    background-color: red;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    margin-top: 35px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+.cardapio {
+    float: right;
+    background-color: red;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    margin-top: 35px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+.pequeno-direita {
+    width: 100%;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-right: 100px;
+    float: right;
+    float: top;
+}
+
+footer div h1 {
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.pedido {
+    border-radius: 50px;
+    color: white;
+    background-color: red;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-left: 75px;
+}
+
+/* .lista {
+    margin-left: 100px;
+} */
+
+.telefone {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/*ACESSIBILIDADE*/
+
+body nav {
+    padding-bottom: 100px;
+}
+
+body nav div ul li {
+    font-size: 20px;
+    list-style: none;  
+    display: inline;
+    padding-right: 50px;
+
+}
+
+body nav div ul li a {
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
